@@ -1,0 +1,23 @@
+.tahogren {
+    font-family: Tahoma;
+    color: green;
+}
+
+.cloudback {
+    background-color: azure;   
+}
+
+#the_note {
+    font-size: 20px;
+}
+
+#coolTitle {
+    background: linear-gradient(to right, red , orange , yellow, aqua , blue , pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Tahoma;
+}
+
+#learnMore {
+    opacity: 0.4;
+}
