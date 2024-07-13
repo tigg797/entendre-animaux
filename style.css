@@ -1,23 +1,31 @@
+#the_note {font-size: 20px;} 
+#learnMore {opacity: 0.4;}
+#copy-link {margin-left: 10px;}
+.cloudback {background-color: azure;}
+body {background-color: pink;}
+
+
 .tahogren {
-    font-family: Tahoma;
-    color: green;
-}
-
-.cloudback {
-    background-color: azure;   
-}
-
-#the_note {
-    font-size: 20px;
-}
+    font-family: "Tahoma";
+    color: green; }
+#iDisappear {
+    font-family: "Outfit";
+    font-size: large;}
 
 #coolTitle {
-    background: linear-gradient(to right, red , orange , yellow, aqua , blue , pink);
+    background: linear-gradient(to right, red , orange, aqua , blue , pink);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     font-family: Tahoma;
 }
-
-#learnMore {
-    opacity: 0.4;
+.copy_right_footer {
+    position: fixed;
+    color: azure;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #203026;
+    line-height: 2;
+    text-align:center;
+    text-shadow: 1px 1px 1px rgb(118, 117, 117);
 }

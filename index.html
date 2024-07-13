@@ -8,6 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,11 +18,13 @@
     </div> <hr><br>
     <button id="the_note" class="btn btn-warning">Play a meow, bark or roar and we'll try to guess who is making the sound</button> <br><br>
       <!--Animal: --> <br>
-      <label>This is a: </label><br>
-      <img height="600" width="600" id="l_animale"><br>
+      <button onclick="startClassification();" id="iDisappear"class="btn btn-success">Start!</button>
+      <label id="le_label">This is: Background Noise</label><br>
+      <img src="Speaker_Icon.png" height="600" width="600" id="l_animale"><br>
       <a id="the_anchor" href="tigg797.github.io/i-hear-animals"><button id="learnMore" class="btn btn-success">Learn more</button></a>
-      <br><br><br><br>
-      <div class="copy_right_footer">Made by R.S, Share with others! <button onclick="doShare" id="copy-link" class="btn btn-info">Share</button></div>
+      <div class="copy_right_footer">Made by R.S! Share with others: 
+        <button onclick="myFunction()" id="copy-link" class="btn btn-info">Share</button>
+      </div>
     </center>
   <script src="main.js"></script>
 </body>
